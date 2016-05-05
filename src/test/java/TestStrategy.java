@@ -14,7 +14,7 @@ public class TestStrategy {
 
         mallard.setFlyBehavior(new FlyNoWay());
         mallard.setQuackBehavior(new MuteQuack());
-        
+
         mallard.performFly();
         mallard.performQuack();
     }
