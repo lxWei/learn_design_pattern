@@ -22,7 +22,6 @@ public class PersonBeanImpl implements PersonBean {
         return gender;
     }
 
-
     public int getHotOrNotRating() {
         if (ratingCount == 0) {
             return 0;
@@ -38,12 +37,9 @@ public class PersonBeanImpl implements PersonBean {
         this.gender = gender;
     }
 
-
-
     public void setInterests(String interests) {
         this.interests = interests;
     }
-
 
     public void setName(String name) {
         this.name = name;
@@ -53,6 +49,4 @@ public class PersonBeanImpl implements PersonBean {
         this.rating += rating;
         ratingCount ++;
     }
-
-
 }

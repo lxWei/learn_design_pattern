@@ -29,6 +29,11 @@ public class TestDrive {
 
     }
 
+    /**
+     * 动态代理，在运行时才创建
+     * @param person
+     * @return
+     */
     PersonBean getOwnerProxy(PersonBean person) {
         return (PersonBean) Proxy.newProxyInstance(
                 person.getClass().getClassLoader(),
